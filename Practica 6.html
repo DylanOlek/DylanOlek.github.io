@@ -6,27 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .menu{
+        background-color: gray;
+        color: white;
+    }
+    .menu:hover{
+        background-color: rgb(85, 81, 81);
+        color: black;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover{
+        color: black;
+    }
+    .contenido{
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+</style>
 <body>
     <h1>Navegacion de html</h1><br>
-
+    <h3>Pagina de inicio</h3>
     <div style="border: 1px solid black;">
 
-        <div style="border: 3px solid black; padding: 10px;">
+        <div style="border-bottom: 3px solid black; padding: 10px;" class="menu">
             <a href="Practica6_noticias.html">Noticias</a>
         </div>
-        <div style="border-bottom: 3px solid black; padding: 10px;">
+        <div style="border-bottom: 3px solid black; padding: 10px;" class="menu">
             <a href="Practica6_galeria.html">Galeria</a>
         </div>
-        <div style="border: 3px solid black; padding: 10px;">
+        <div style="border-bottom: 3px solid black; padding: 10px;" class="menu">
             <a href="Practica6_contactos.html">Contacto</a>
         </div>
+        
     </div >
+    <div class="contenido">
+            <h3>¡Bienvenido a mi pagina!</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, dignissimos eveniet in voluptatum impedit sapiente explicabo magnam voluptatibus neque tempore exercitationem eaque ipsam ab itaque, ex, quaerat recusandae harum totam.</p>
 
-    
-
-    
-
-    
+    </div>
 
 </body>
 </html>
