@@ -92,21 +92,6 @@ INSERT INTO `tiendita` (`id`, `producto`, `descripcion`, `precio`, `categoria`, 
 (13, 'Razer Hammerhead', 'Audifonos gamer inalambricos de alta calidad, compatibles con celular, consola y computadora.', 1000, 'Audifonos', 'Razer'),
 (14, 'Razer DeathAdder Essential', 'Mouse gamer alambrico con sensor de gama baja e iluminacion rgb ', 500, 'Mouse', 'Razer'),
 (15, 'Razer Basilisk', 'Mouse gamer de gama alta escencial para los jugadores competitivos.', 1400, 'Mouse', 'Razer'),
-(16, 'HyperX Alloy Origins 60', 'Teclado gamer para jugar', 2000, 'Teclado', 'HyperX'),
-(17, 'HyperX Cloud 2', 'Audifonos gamer para jugar y escuchar musica', 2100, 'Audifonos', 'HyperX'),
-(18, 'Logitech g502 Lightspeed', 'Mouse gamer escencial para aquellos que se adentran en el mundo de los videjuegos competitivos.', 3000, 'Mouse', 'Logitech'),
-(19, 'Logitech g203', 'Mouse gamer de gama baja, muy bueno para las personas que adquieren su primer mouse gamer.', 400, 'Mouse', 'Logitech'),
-(20, 'Logitech g213', 'Teclado gamer de membrana con sensacion mecanica, es bueno para las personas que usen la computadora seguido pero de forma moderada.', 1200, 'Teclado', 'Logitech '),
-(21, 'Logitech G512', 'Teclado gamer mecanico muy bueno con iluminacion RGB de la marca logitech', 2300, 'Teclado ', 'Logitech'),
-(22, 'Logitech g502x', 'Mouse gamer de gama alta, el actual exponente numero uno de la marca logitech ', 8000, 'Mouse', 'Logitech '),
-(23, 'Razer Viper Mini', 'Mouse gamer gama baja, cuenta con iluminacion RGB y clicks de buena calidad', 500, 'Mouse', 'Razer'),
-(24, 'Razer Huntsman Mini', 'Teclado gamer de buena calidad, teclado del estilo sesenta porciento, iluminacion rgb, switches opticos cherry mx y una pcb de nueva generacion con retroceso de 1ms', 3200, 'Teclado', 'Razer'),
-(25, 'Razer Black Widow', 'Teclado gamer de tipo completo, teclado de ultima generacion con iluminacion rgb, mecanico con switches red y una pcb con muy poco retroceso ', 2000, 'Teclado ', 'Razer'),
-(26, 'Razer Huntsman Tournament Edition V2', 'Teclado gamer tipo completo, mecanico y cuenta con iluminacion rgb.', 2000, 'Teclado ', 'Razer'),
-(27, 'Razer Kraken', 'Audifonos gamer de alta calidad que vienen con microfono, compatibles con consola, pc y celulares.', 1000, 'Audifonos', 'Razer'),
-(28, 'Razer Hammerhead', 'Audifonos gamer inalambricos de alta calidad, compatibles con celular, consola y computadora.', 1000, 'Audifonos', 'Razer'),
-(29, 'Razer DeathAdder Essential', 'Mouse gamer alambrico con sensor de gama baja e iluminacion rgb ', 500, 'Mouse', 'Razer'),
-(30, 'Razer Basilisk', 'Mouse gamer de gama alta escencial para los jugadores competitivos.', 1400, 'Mouse', 'Razer');
 
 --
 -- Índices para tablas volcadas
