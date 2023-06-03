@@ -14,70 +14,69 @@ $pregunta7 =$_POST["pregunta7"];
 $pregunta8 =$_POST["pregunta8"];
 $pregunta9 =$_POST["pregunta9"];
 
-echo "<h3>Pregunta 1: ".$pregunta1."</h3>";
-
 if($pregunta1 == "b"){
-    $calificacion ++;
-    echo "<img src:'bien.png' width='3%'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
    echo "La respuesta es b";
-   echo "<img src:'mal.png'>";
+   echo " <img src ='mal.png' width='3%'>";
 }
 if($pregunta2 == "a"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es a";
-    echo "<img src:'mal.png'>";
+    echo " <img src ='mal.png' width='3%'>";
 }
 if($pregunta3 == "c"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es c";
-    echo "<img src:'mal.png'>";
+    echo " <img src ='mal.png' width='3%'>";
 }
 if($pregunta4 == "c"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es c";
-    echo "<img src:'mal.png'>";
+    echo " <img src ='mal.png' width='3%'>";
 }
 if($pregunta5 == "a"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es a";
-    echo "<img src:'mal.png'>";
+    echo " <img src ='mal.png' width='3%'>";
 }
 if($pregunta6 == "c"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es c";
-    echo "<img src:'mal.png'>";
+    echo " <img src ='mal.png' width='3%'>";
 }
 if($pregunta7 == "c"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion +1.1;
+    echo "Correcto <img src='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es c";
-    echo "<img src:'mal.png'>";
+    echo "<img src ='mal.png' width='3%'>";
 }
 if($pregunta8 == "b"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion + 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es b";
-    echo "<img src:'mal.png'>";
+    echo "<img src ='mal.png' width='3%'>";
 }
 if($pregunta9 == "a"){
-    $calificacion ++;
-    echo "<img src:'bien.png'>";
+    $calificacion = $calificacion+ 1.1;
+    echo "Correcto <img src ='bien.png' width='3%'><hr>";
 }else{
     echo "La respuesta es a";
-    echo "<img src:'mal.png'>";
+    echo "<img src ='mal.png' width='3%'>";
 }
+echo $calificacion;
 
 ?>
