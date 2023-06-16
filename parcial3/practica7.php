@@ -20,7 +20,9 @@
     <div class="container">
         <h1>Practica 7</h1>
         <form action="">
+        <input type="submit" value="Jugar" class="btn btn-primary">
             <div class="row">
+                <br>
                 <?php
                     for($i=100; $i>0; $i--){
                         if($i == 4){
@@ -29,7 +31,7 @@
                         echo "<div class='col-1 card' style='background-color:".$colores[rand(0,5)].";'>".$i."</div>";
                     }
                 ?>
-            </div>    
+            </div>   
         </form>
             
     </div>
